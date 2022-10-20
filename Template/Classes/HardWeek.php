@@ -3,31 +3,31 @@ namespace Template\Classes;
 
 class HardWeek extends Shedule
 {
-    public function monday()
+    protected function monday()
     {
         echo "Hard Monday<br>";
     }
 
-    public function tuesday()
+    protected function tuesday()
     {
         echo "Hard Tuesday<br>";
     }
 
-    public function wednesday()
+    protected function wednesday()
     {
         echo "Hard Wednesday<br>";
     }
 
-    public function thursday(){
+    protected function thursday(){
         echo "Hard Thursday<br>";
     }
 
-    public function friday()
+    protected function friday()
     {
         echo "Hard Friday<br>";
     }
 
-    public function saturday()
+    protected function saturday()
     {
         echo "Hard Saturday<br>";
     }

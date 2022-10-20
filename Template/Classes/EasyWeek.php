@@ -3,31 +3,31 @@ namespace Template\Classes;
 
 class EasyWeek extends Shedule
 {
-    public function monday()
+    protected function monday()
     {
         echo "Easy Monday<br>";
     }
 
-    public function tuesday()
+    protected function tuesday()
     {
         echo "Easy Tuesday<br>";
     }
 
-    public function wednesday()
+    protected function wednesday()
     {
         echo "Easy Wednesday<br>";
     }
 
-    public function thursday(){
+    protected function thursday(){
         echo "Easy Thursday<br>";
     }
 
-    public function friday()
+    protected function friday()
     {
         echo "Easy Friday<br>";
     }
 
-    public function saturday()
+    protected function saturday()
     {
         echo "Easy Saturday<br>";
     }

@@ -2,9 +2,7 @@
 require_once __DIR__ . '/../vendor/autoload.php';
 
 $easyWeek = new \Template\Classes\EasyWeek();
-$easyWeek->monday();
-$easyWeek->sunday();
+$easyWeek->showWeek();
 
 $hardWeek = new \Template\Classes\HardWeek();
-$hardWeek->monday();
-$hardWeek->sunday();
+$hardWeek->showWeek();
