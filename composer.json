@@ -1,7 +1,8 @@
 {
   "autoload": {
     "psr-4": {
-      "Template\\Classes\\": "Template/Classes"
+      "Template\\Classes\\": "Template/Classes/",
+      "Observer\\Classes\\": "Observer/Classes/"
     }
   }
 }

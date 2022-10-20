@@ -7,4 +7,5 @@ $baseDir = dirname($vendorDir);
 
 return array(
     'Template\\Classes\\' => array($baseDir . '/Template/Classes'),
+    'Observer\\Classes\\' => array($baseDir . '/Observer/Classes'),
 );

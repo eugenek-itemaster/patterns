@@ -1,8 +1,11 @@
 <?php
 require_once __DIR__ . '/../vendor/autoload.php';
 
-$easyWeek = new \Template\Classes\EasyWeek();
+use Template\Classes\EasyWeek;
+use Template\Classes\HardWeek;
+
+$easyWeek = new EasyWeek();
 $easyWeek->showWeek();
 
-$hardWeek = new \Template\Classes\HardWeek();
+$hardWeek = new HardWeek();
 $hardWeek->showWeek();

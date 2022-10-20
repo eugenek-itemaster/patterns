@@ -11,12 +11,20 @@ class ComposerStaticInit8c4d4c23000b2f1100bbaf25508f99be
         array (
             'Template\\Classes\\' => 17,
         ),
+        'O' => 
+        array (
+            'Observer\\Classes\\' => 17,
+        ),
     );
 
     public static $prefixDirsPsr4 = array (
         'Template\\Classes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Template/Classes',
+        ),
+        'Observer\\Classes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Observer/Classes',
         ),
     );
 
