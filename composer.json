@@ -3,7 +3,8 @@
     "psr-4": {
       "Template\\Classes\\": "Template/Classes/",
       "Observer\\Classes\\": "Observer/Classes/",
-      "Decorator\\Classes\\": "Decorator/Classes/"
+      "Decorator\\Classes\\": "Decorator/Classes/",
+      "Facade\\Classes\\": "Facade/Classes/"
     }
   }
 }

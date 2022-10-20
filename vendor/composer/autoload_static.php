@@ -15,6 +15,10 @@ class ComposerStaticInit8c4d4c23000b2f1100bbaf25508f99be
         array (
             'Observer\\Classes\\' => 17,
         ),
+        'F' => 
+        array (
+            'Facade\\Classes\\' => 15,
+        ),
         'D' => 
         array (
             'Decorator\\Classes\\' => 18,
@@ -29,6 +33,10 @@ class ComposerStaticInit8c4d4c23000b2f1100bbaf25508f99be
         'Observer\\Classes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Observer/Classes',
+        ),
+        'Facade\\Classes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Facade/Classes',
         ),
         'Decorator\\Classes\\' => 
         array (
