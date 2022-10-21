@@ -6,7 +6,8 @@
       "Decorator\\Classes\\": "Decorator/Classes/",
       "Facade\\Classes\\": "Facade/Classes/",
       "Builder\\Classes\\": "Builder/Classes/",
-      "FabricaSimple\\Classes\\": "FabricaSimple/Classes/"
+      "FabricaSimple\\Classes\\": "FabricaSimple/Classes/",
+      "FabricaMethod\\Classes\\": "FabricaMethod/Classes/"
     }
   }
 }
