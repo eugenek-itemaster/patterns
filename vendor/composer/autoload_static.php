@@ -18,6 +18,7 @@ class ComposerStaticInit8c4d4c23000b2f1100bbaf25508f99be
         'F' => 
         array (
             'Facade\\Classes\\' => 15,
+            'FabricaSimple\\Classes\\' => 22,
         ),
         'D' => 
         array (
@@ -41,6 +42,10 @@ class ComposerStaticInit8c4d4c23000b2f1100bbaf25508f99be
         'Facade\\Classes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Facade/Classes',
+        ),
+        'FabricaSimple\\Classes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/FabricaSimple/Classes',
         ),
         'Decorator\\Classes\\' => 
         array (

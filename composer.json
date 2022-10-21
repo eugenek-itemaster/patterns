@@ -5,7 +5,8 @@
       "Observer\\Classes\\": "Observer/Classes/",
       "Decorator\\Classes\\": "Decorator/Classes/",
       "Facade\\Classes\\": "Facade/Classes/",
-      "Builder\\Classes\\": "Builder/Classes/"
+      "Builder\\Classes\\": "Builder/Classes/",
+      "FabricaSimple\\Classes\\": "FabricaSimple/Classes/"
     }
   }
 }

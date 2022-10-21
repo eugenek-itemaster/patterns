@@ -9,6 +9,7 @@ return array(
     'Template\\Classes\\' => array($baseDir . '/Template/Classes'),
     'Observer\\Classes\\' => array($baseDir . '/Observer/Classes'),
     'Facade\\Classes\\' => array($baseDir . '/Facade/Classes'),
+    'FabricaSimple\\Classes\\' => array($baseDir . '/FabricaSimple/Classes'),
     'Decorator\\Classes\\' => array($baseDir . '/Decorator/Classes'),
     'Builder\\Classes\\' => array($baseDir . '/Builder/Classes'),
 );
