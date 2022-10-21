@@ -10,4 +10,5 @@ return array(
     'Observer\\Classes\\' => array($baseDir . '/Observer/Classes'),
     'Facade\\Classes\\' => array($baseDir . '/Facade/Classes'),
     'Decorator\\Classes\\' => array($baseDir . '/Decorator/Classes'),
+    'Builder\\Classes\\' => array($baseDir . '/Builder/Classes'),
 );
