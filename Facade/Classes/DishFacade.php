@@ -1,29 +1,31 @@
 <?php
 namespace Facade\Classes;
-
 class DishFacade
 {
-    public static function prepare(string $dish)
+    public static function prepareBorsch()
     {
-        switch ($dish) {
-            case 'borsch' :
-                $borsch = new Borsch();
-                $borsch->prepare();
-                break;
-            case 'plow' :
-                $borsch = new Plow();
-                $borsch->prepare();
-                break;
-            case 'ragu' :
-                $borsch = new Ragu();
-                $borsch->prepare();
-                break;
-            case 'blini' :
-                $borsch = new Blini();
-                $borsch->prepare();
-                break;
-            default:
-                echo "Sorry! We don't prepare this dish!";
-        }
+        static::buy();
+
+        static::narezaat();
+
+        static::varka();
+    }
+
+    private static function buy()
+    {
+        $shop = new Shop();
+        $shop->buyProducts();
+    }
+
+    private static function narezaat()
+    {
+        $shop = new Nozh();
+        $shop->cutProducts();
+    }
+
+    private static function varka()
+    {
+        $shop = new Plita();
+        $shop->svaritProducts();
     }
 }
