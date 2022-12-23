@@ -15,6 +15,10 @@ class ComposerStaticInit8c4d4c23000b2f1100bbaf25508f99be
         array (
             'Strategy\\Classes\\' => 17,
         ),
+        'P' => 
+        array (
+            'Proxy\\Classes\\' => 14,
+        ),
         'O' => 
         array (
             'Observer\\Classes\\' => 17,
@@ -43,6 +47,10 @@ class ComposerStaticInit8c4d4c23000b2f1100bbaf25508f99be
         'Strategy\\Classes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Strategy/Classes',
+        ),
+        'Proxy\\Classes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Proxy/Classes',
         ),
         'Observer\\Classes\\' => 
         array (

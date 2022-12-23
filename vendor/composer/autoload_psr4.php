@@ -8,6 +8,7 @@ $baseDir = dirname($vendorDir);
 return array(
     'Template\\Classes\\' => array($baseDir . '/Template/Classes'),
     'Strategy\\Classes\\' => array($baseDir . '/Strategy/Classes'),
+    'Proxy\\Classes\\' => array($baseDir . '/Proxy/Classes'),
     'Observer\\Classes\\' => array($baseDir . '/Observer/Classes'),
     'Facade\\Classes\\' => array($baseDir . '/Facade/Classes'),
     'FabricaSimple\\Classes\\' => array($baseDir . '/FabricaSimple/Classes'),
