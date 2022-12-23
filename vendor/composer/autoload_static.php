@@ -11,6 +11,10 @@ class ComposerStaticInit8c4d4c23000b2f1100bbaf25508f99be
         array (
             'Template\\Classes\\' => 17,
         ),
+        'S' => 
+        array (
+            'Strategy\\Classes\\' => 17,
+        ),
         'O' => 
         array (
             'Observer\\Classes\\' => 17,
@@ -35,6 +39,10 @@ class ComposerStaticInit8c4d4c23000b2f1100bbaf25508f99be
         'Template\\Classes\\' => 
         array (
             0 => __DIR__ . '/../..' . '/Template/Classes',
+        ),
+        'Strategy\\Classes\\' => 
+        array (
+            0 => __DIR__ . '/../..' . '/Strategy/Classes',
         ),
         'Observer\\Classes\\' => 
         array (
