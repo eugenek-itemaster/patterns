@@ -34,6 +34,8 @@ class Wife implements FamilyInterface
         return true;
     }
 
-    private function checkMax(){
-        return count($this->jobs) > 4 ;    }
+    private function checkMax()
+    {
+        return count($this->jobs) > 4;
+    }
 }
